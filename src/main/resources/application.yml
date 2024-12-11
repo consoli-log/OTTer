@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: OTTer
+  config:
+    import:
+      - config/application-database.yml
+      - config/application-security.yml
